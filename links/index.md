@@ -1,3 +1,3 @@
 ---
-target: https://github.com/basement.works
+target: https://github.com/basement-works
 ---
