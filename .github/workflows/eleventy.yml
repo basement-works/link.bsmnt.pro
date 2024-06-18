@@ -11,7 +11,7 @@ jobs:
       - name: setup
         uses: actions/setup-node@v3.5.1
         with:
-          node-version: '16'
+          node-version: '20'
 
       - name: cache
         uses: actions/cache@v3
@@ -28,4 +28,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          cname: valinatic.tech
+          cname: link.bsmnt.pro
