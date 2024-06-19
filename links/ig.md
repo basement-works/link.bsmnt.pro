@@ -1,3 +1,3 @@
 ---
-target: https://instagram.com/basement-works
+target: https://instagram.com/basement.works
 ---
