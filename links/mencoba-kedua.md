@@ -1,3 +1,0 @@
----
-target: https://github.com
----

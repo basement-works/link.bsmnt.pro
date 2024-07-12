@@ -37,7 +37,7 @@ generate_slug() {
 }
 
 slug_exists() {
-    if [ -f "links/$SLUG.md" ]; then
+    if [ -f "links/$SLUG.$FORMAT" ]; then
         echo
         echo "/$SLUG already exists. Please choose another."
         echo
@@ -46,7 +46,7 @@ slug_exists() {
 }
 
 create_redirect_file() {
-    cat <<EOF > "links/$SLUG.md"
+    cat <<EOF > "links/$SLUG.$FORMAT"
 ---
 target: $TARGET
 ---
@@ -54,7 +54,7 @@ EOF
 }
 
 commit_redirect() {
-    git add "links/$SLUG.md"
+    git add "links/$SLUG.$FORMAT"
     git commit -m "feat: create /$SLUG" -m "url target is $TARGET" > /dev/null 2>&1
 }
 
@@ -66,6 +66,15 @@ fi
 if [ -z "$SLUG" ]; then
     check_openssl_installed
     generate_slug
+fi
+
+# Ask the user for the file format
+echo "Choose the file format (md/mdx):"
+read -r FORMAT
+
+if [[ "$FORMAT" != "md" && "$FORMAT" != "mdx" ]]; then
+    echo "Invalid format. Please choose either 'md' or 'mdx'."
+    exit 1
 fi
 
 slug_exists
