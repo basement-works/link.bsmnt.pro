@@ -1,3 +1,3 @@
 ---
-target: https://instagram.com/iqbalnovan
+target: https://instagram.com/ibalnovan
 ---
