@@ -8,6 +8,7 @@ a serverless & minimalist URL shortener that doesn't try to do too much
 - [`/github`](https://link.bsmnt.pro/github)
 - [`/yuxxuen`](https://link.bsmnt.pro/yuxxuen)
 - [`/zia`](https://link.bsmnt.pro/zia)
+- [`/iqbal`](https://link.bsmnt.pro/iqbal)
 
 ## License
 [MIT](./LICENSE)

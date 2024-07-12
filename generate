@@ -4,7 +4,7 @@ TARGET=$1
 SLUG=$2
 
 usage() {
-    cat <<EOF
+    cat << EOF
 
   link.bsmnt.pro — a serverless & minimalist URL shortener that doesn't try to do too much.
 
@@ -73,4 +73,4 @@ create_redirect_file
 commit_redirect
 
 echo
-echo "  Successfully created redirect from /$SLUG to $TARGET."
+echo " 🤘 Successfully created redirect from /$SLUG to $TARGET."
