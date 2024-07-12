@@ -4,6 +4,7 @@
   "description": "a serverless & minimalist URL shortener that doesn't try to do too much.",
   "main": "index.js",
   "scripts": {
+    "start": "npx eleventy --serve",
     "dev": "npx eleventy --serve",
     "build": "npx eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
