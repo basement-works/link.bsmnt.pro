@@ -1,3 +1,3 @@
 ---
-target: https://github.com/basement-works/link.bsmnt.pro.git
+target: https://basementworks.now.sh
 ---
