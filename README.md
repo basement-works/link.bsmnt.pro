@@ -7,7 +7,7 @@ a serverless & minimalist URL shortener that doesn't try to do too much
 - [`/ratio`](https://bsmnt.pro/ratio)
 - [`/github`](https://bsmnt.pro/github)
 - [`/link`](https://bsmnt.pro/link)
-- [`/yuxxuen`](https://bsmnt.pro/yuxxuen)
+- [`/yuxxeun`](https://bsmnt.pro/yuxxeun)
 - [`/zia`](https://bsmnt.pro/zia)
 - [`/iqbal`](https://bsmnt.pro/iqbal)
 - [`/dzikry`](https://bsmnt.pro/dzikry)
