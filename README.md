@@ -1,6 +1,11 @@
 # link.bsmnt.pro
 a serverless & minimalist URL shortener that doesn't try to do too much
 
+## Run
+1. `git clone https://github.com/yuxxeun/link.bsmnt.pro`
+2. `bun install`
+3
+
 ## List
 - [`root`](https://bsmnt.pro)
 - [`/ig`](https://bsmnt.pro/ig)

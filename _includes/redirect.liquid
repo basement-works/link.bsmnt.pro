@@ -1,29 +1,30 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="0; URL={{ target }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Redirect to {{ target }}</title>
+        <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body {
+                font-family: Inter, sans-serif;
+            }
+        </style>
+    </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; URL={{ target }}" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mengarahkan anda ke {{ target }}...</title>
-  <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
-  <style>
-    body {
-      font-family: Inter, sans-serif;
-    }
-  </style>
-</head>
-
-<body
+    <body
         class="flex items-center justify-center min-h-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] text-center antialiased">
-        <div class="mx-4 sm:mx-10 my-10 text-zinc-200">
+        <div class="mx-4 sm:mx-10 my-5 text-zinc-200">
             <h1 class="text-2xl sm:text-4xl font-bold animate-pulse">Mohon tunggu...</h1>
             <p class="mt-5 text-lg sm:text-2xl">
                 Mengarahkan ke <strong>{{ target | url }}</strong>
                 <br>
-                Jika tidak terjadi apapun, <a class="underline font-bold decoration-wavy" href="{{ target | url }}">klik tautan ini</a>
+                Jika tidak terjadi apapun, <a class="underline font-bold decoration-wavy" href="{{ target | url }}">klik tautan ini.</a>
             </p>
         </div>
     </body>
+
     <script defer src="https://umami.bsmnt.pro/script.js" data-website-id="a14d2956-6bed-4dd3-8f73-6cd6911bb013"></script>
 </html>
