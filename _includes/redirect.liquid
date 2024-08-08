@@ -5,56 +5,25 @@
   <meta charset="utf-8">
   <meta http-equiv="refresh" content="0; URL={{ target }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#666">
   <title>Mengarahkan anda ke {{ target }}...</title>
   <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css">
   <style>
-    html {
-      box-sizing: border-box;
-      font-size: 18px;
-    }
-
-    *,
-    *:before,
-    *:after {
-      box-sizing: inherit;
-    }
-
     body {
-      margin: 0;
-      padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, Inter;
-      font-size: 1.337rem;
-      background-color: #000;
-      color: #fff;
-    }
-
-    div {
-      padding: 2rem;
-      width: 960px;
-      margin: auto;
-      max-width: 100%;
-    }
-
-    h2,
-    p {
-      text-overflow: ellipsis;
-      overflow: hidden;
-    }
-
-    a {
-      color: inherit;
+      font-family: Inter, sans-serif;
     }
   </style>
 </head>
 
-<body>
-  <div>
-    <h2>Sedang mengarahkan...</h2>
-    <p>Mengarahkan anda ke <strong>{{ target | url }}</strong></p>
-    <p>Jika tidak terjadi apapun, <a href="{{ target | url }}">klik tautan ini</a></p>
-  </div>
-  <script defer src="https://umami.bsmnt.pro/script.js" data-website-id="a14d2956-6bed-4dd3-8f73-6cd6911bb013"></script>
-</body>
+<body
+        class="flex items-center justify-center min-h-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] text-center antialiased">
+        <div class="mx-4 sm:mx-10 my-10 text-zinc-200">
+            <h1 class="text-2xl sm:text-4xl font-bold animate-pulse">Mohon tunggu...</h1>
+            <p class="mt-5 text-lg sm:text-2xl">
+                Mengarahkan ke <strong>{{ target | url }}</strong>
+                <br>
+                Jika tidak terjadi apapun, <a class="underline font-bold decoration-wavy" href="{{ target | url }}">klik tautan ini</a>
+            </p>
+        </div>
+    </body>
+    <script defer src="https://umami.bsmnt.pro/script.js" data-website-id="a14d2956-6bed-4dd3-8f73-6cd6911bb013"></script>
 </html>

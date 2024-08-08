@@ -1,1 +1,1 @@
-module.exports = 'redirect.liquid'
+module.exports = "redirect.liquid";

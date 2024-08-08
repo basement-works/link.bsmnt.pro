@@ -10,7 +10,7 @@ a serverless & minimalist URL shortener that doesn't try to do too much
 - [`/yuxxeun`](https://bsmnt.pro/yuxxeun)
 - [`/zia`](https://bsmnt.pro/zia)
 - [`/iqbal`](https://bsmnt.pro/iqbal)
-- [`/dzkrysyhrl`](https://bsmnt.pro/dzkrysyhrl)
+- [`/dzkrysyhrl`](https://bsmnt.pro/dzkrysyhrl)s
 
 ## License
 [MIT](./LICENSE)

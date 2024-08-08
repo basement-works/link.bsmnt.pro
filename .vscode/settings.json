@@ -1,7 +1,7 @@
 {
-    "github-actions.workflows.pinned.workflows": [
-        ".github/workflows/eleventy.yml"
-    ],
-    "IDX.aI.enableInlineCompletion": true,
-    "IDX.aI.enableCodebaseIndexing": true
+	"github-actions.workflows.pinned.workflows": [
+		".github/workflows/eleventy.yml"
+	],
+	"IDX.aI.enableInlineCompletion": true,
+	"IDX.aI.enableCodebaseIndexing": true
 }

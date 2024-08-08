@@ -1,19 +1,21 @@
 {
-  "name": "@basement-works/link.bsmnt.pro",
-  "version": "1.0.0",
-  "description": "a serverless & minimalist URL shortener that doesn't try to do too much.",
-  "main": "index.js",
-  "scripts": {
-    "start": "npx eleventy --serve",
-    "dev": "npx eleventy --serve",
-    "build": "npx eleventy",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "@11ty/eleventy": "1.0.2"
-  },
-  "dependencies": {
-    "@jamshop/eleventy-plugin-mdx": "^0.0.17"
-  }
+	"name": "@basement-works/link.bsmnt.pro",
+	"version": "1.0.0",
+	"description": "a serverless & minimalist URL shortener that doesn't try to do too much.",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx eleventy --serve",
+		"dev": "npx eleventy --serve",
+		"build": "npx eleventy",
+		"format": "bunx biome format --write .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@11ty/eleventy": "1.0.2",
+		"@biomejs/biome": "1.8.3"
+	},
+	"dependencies": {
+		"@jamshop/eleventy-plugin-mdx": "^0.0.17"
+	}
 }
